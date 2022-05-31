@@ -19,7 +19,7 @@
     <!-- Rating state start -->
     <div class="container">
       <div class="card one">
-        <img src="./images/icon-star.svg" alt="orange star icon" />
+        <img class="star" src="./images/icon-star.svg" alt="orange star icon" />
         <h1>How did we do?</h1>
 
         <p>
@@ -27,20 +27,33 @@
           is appreciated to help us improve our offering!
         </p>
 
-        <div>1 2 3 4 5</div>
+        <div class="circles">
+          <div class="circle"><p>1</p></div>
+          <div class="circle"><p>2</p></div>
+          <div class="circle"><p>3</p></div>
+          <div class="circle"><p>4</p></div>
+          <div class="circle"><p>5</p></div>
+        </div>
 
-        <button>Submit</button>
+        <button>SUBMIT</button>
       </div>
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
       <div class="card two">
-        <p>
-          You selected
-          <!-- Add rating here -->
-          out of 5
-        </p>
-
+        <img
+          class="thanks-img"
+          src="./images/illustration-thank-you.svg"
+          alt=""
+          srcset=""
+        />
+        <div class="selected">
+          <p>
+            You selected
+            <!-- Add rating here -->
+            out of 5
+          </p>
+        </div>
         <h2>Thank you!</h2>
 
         <p>
