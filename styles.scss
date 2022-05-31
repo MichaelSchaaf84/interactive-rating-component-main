@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+$orange: hsl(25, 97%, 53%);
+
+/*neutral colors*/
+$light_grey: hsl(217, 12%, 63%);
+$medium_grey: hsl(216, 12%, 54%);
+$dark_blue: hsl(213, 19%, 18%);
+$very_dark_blue: hsl(216, 12%, 8%);
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: $very_dark_blue;
+}
+
+.card {
+  background-color: $dark_blue;
+  padding: 1em;
+  color: white;
+  p {
+    color: $light_grey;
+  }
+  img {
+    border-radius: 24px;
+    padding: 12px;
+    background-color: $medium_grey;
+    opacity: 0.15;
+  }
+}
+button {
+  background-color: $orange;
+  border: none;
+  font-family: "Overpass";
+  color: white;
+  width: 100%;
+  border-radius: 40px;
+  padding: 0.6em;
+}
