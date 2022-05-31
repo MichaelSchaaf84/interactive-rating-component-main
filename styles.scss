@@ -46,27 +46,41 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 1.8em 0 1.8em 0;
+
     .circle {
-      text-align: center;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      padding: 1px;
+      border-radius: 60%;
+      width: 38px;
+      height: 38px;
+
       background: $medium_grey;
 
+      border: none;
       color: white;
+    }
+    .circle:hover {
+      cursor: pointer;
+      background: $orange;
     }
   }
 }
-button {
+.submit {
   background-color: $orange;
   border: none;
   font-family: "Overpass";
   color: white;
   width: 100%;
+  height: 2em;
+  padding-top: 0.9em;
+
   border-radius: 40px;
-  padding: 0.6em;
+  padding-bottom: 1.9em;
   font-weight: 700;
+}
+.submit:hover {
+  cursor: pointer;
+  background: white;
+  color: $orange;
+  transition: all 0.3s ease;
 }
 .card.two {
   text-align: center;
