@@ -46,8 +46,9 @@ body {
     display: none;
   }
 
-  input[type="radio"][name="toggleRadio"]:checked + a {
-    color: #000;
+  input[type="radio"][name="toggleRadio"]:checked + label {
+    color: #fff;
+    background: $orange;
     text-decoration: none;
   }
 
@@ -72,7 +73,7 @@ body {
     }
     .circle:hover {
       cursor: pointer;
-      background: $orange;
+      background: $light_grey;
     }
   }
 }
